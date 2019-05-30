@@ -31,7 +31,7 @@ def valid_move?(the_board, index)
     end
   end
   
-  if (position_taken?(the_board, the_index)) == false && (valid_position?(the_index)) == true
+  if (position_taken?(the_board, index)) == false && (valid_position?(index)) == true
     return true
   else
     return false
