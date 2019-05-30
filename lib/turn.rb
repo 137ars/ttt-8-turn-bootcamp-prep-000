@@ -13,10 +13,10 @@ def input_to_index(user_input)
 end
 
 
-def valid_move?(the_board, the_index)
+def valid_move?(the_board, index)
   
-  def position_taken?(board, index)
-    if board[index] == " " || board[index] == "" || board[index] == nil
+  def position_taken?(board, ind)
+    if board[ind] == " " || board[ind] == "" || board[ind] == nil
       return false
     else
       return true
