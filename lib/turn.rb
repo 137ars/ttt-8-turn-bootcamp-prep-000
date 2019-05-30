@@ -14,7 +14,7 @@ end
 
 
 def valid_move?(board, index)
-  def position_taken?(board, ind)
+  def position_taken?(the_board, ind)
     if the_board[ind] == " " || the_board[ind] == "" || the_board[ind] == nil
       return false
     else
