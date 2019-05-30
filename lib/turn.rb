@@ -25,12 +25,12 @@ def valid_move?(board, index)
   def valid_position?(number) 
     if number.between?(0, 8)
       return true
-    else
+    elses
       return false
     end
   end
   
-  if (position_taken?(board, ind)) == false && (valid_position?(number) == true)
+  if (position_taken?(board, index)) == false && (valid_position?(number) == true)
     return true
   else
     return false
